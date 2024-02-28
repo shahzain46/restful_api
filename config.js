@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://shahzain:12shah34zain@mydatabase.lboguaf.mongodb.net/')
+mongoose.connect('mongodb+srv://userName:yourPassword@mydatabase.lboguaf.mongodb.net/')
 
 mongoose.connection.off('error',err=>{
     console.log("connection fail")
